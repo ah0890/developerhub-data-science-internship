@@ -155,19 +155,39 @@ git clone https://github.com/Ahaulakh0890/developerhub-data-science-internship.g
 cd developerhub-data-science-internship
 ```
 
-### 2. Install Dependencies
+### 2. Create & Activate Virtual Environment
+
+A **single shared environment** covers all 5 assignments — no need for separate envs.
+
+**Windows:**
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+**macOS / Linux:**
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Launch Jupyter
+### 4. Launch Jupyter
 
 ```bash
 jupyter notebook
 ```
 
 Then open any `.ipynb` file from the assignment folders.
+
+> **Note:** Select the `.venv` kernel inside Jupyter via *Kernel → Change Kernel → Python (.venv)*.
 
 ---
 
@@ -195,4 +215,4 @@ Then open any `.ipynb` file from the assignment folders.
 
 ---
 
-*DeveloperHub Data Science Internship — 2024/2025*
+*DeveloperHub Data Science Internship — 2026*
